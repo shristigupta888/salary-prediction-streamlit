@@ -1,9 +1,15 @@
-import streamlit as st
+import streamlit  as st
 import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("salary_model.pkl")
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "salary_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="Salary Prediction App", page_icon="💼")
 
