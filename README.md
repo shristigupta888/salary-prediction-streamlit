@@ -48,7 +48,7 @@ salary-prediction/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/salary-prediction.git
+git clone https://github.com/shristigupta888/salary-prediction.git
 ```
 
 ### 2. Navigate to the project
